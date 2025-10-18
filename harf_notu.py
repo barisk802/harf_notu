@@ -28,8 +28,9 @@ if st.button("Hesapla"):
         st.warning("Harf Notunuz: **DC**")
     elif genel_not >= 60:
         st.warning("Harf Notunuz: **DD**")
-    elif genel_not >= 55:
+    elif genel_not >= 30:
         st.warning("Harf Notunuz: **FD**")
     else:
         st.error("Harf Notunuz: **FF ❌**")
+
 
